@@ -75,7 +75,7 @@
   font-size: 12px;
 }
 
-.try-button:hover, .get-started-button:hover {
+.try-button:hover, .get-started-button:hover, .get-started-button-big:hover {
   transition: 0.3s;
   cursor: pointer;
   opacity: 0.65;
@@ -85,6 +85,51 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.page-main {
+  background-color: blue;
+}
+
+.page-main-a, .page-main-b, .page-main-c {
+  display: flex;
+  align-items: center;
+  padding: 50px 100px;
+  gap: 100px;
+  width: 85%;
+}
+
+.page-main-a {
+  background-color: green;
+}
+
+.page-main-b {
+  background-color: red;
+}
+
+.page-main-c {
+  background-color: purple;
+}
+
+.page-main-img {
+  height: 250px;
+}
+
+.page-main-overlap {
+  background-color: white;
+  padding: 50px 100px;
+  width: 60%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.get-started-button-big {
+  height: 45px;
+  width: 250px;
+  font-size: 14px;
 }
 
 footer {
