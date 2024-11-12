@@ -14,14 +14,18 @@
 }
 
 .page-top {
+  background-image: url("./images/bg-hero-desktop.svg");
+}
+
+.page-top-div {
   display: flex;
   flex-direction: column;
-  background-image: url("./images/bg-hero-desktop.svg");
   padding: 50px;
+  gap: 50px;
+  background-color: rgba(211, 237, 253, 0.40);
 }
 
 .page-top-a {
-  background-color: red;
   display: flex;
   justify-content: space-between;
 }
@@ -31,15 +35,20 @@
 }
 
 .page-top-b {
-  background-color: green;
   display: flex;
   gap: 50px;
+  align-items: center;
 }
 
 .page-top-heading {
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 34px;
+}
+
+.page-top-text {
+  font-size: 16px;
 }
 
 .page-top-img {
@@ -50,5 +59,30 @@
   width: 175px;
   font-weight: bold;
   border-radius: 25px;
-  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.45);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  background-color: white;
+}
+
+.get-started-button {
+  width: 200px;
+  height: 35px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+}
+
+.try-button:hover, .get-started-button:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+.page-top-text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
