@@ -86,3 +86,8 @@
   flex-direction: column;
   gap: 20px;
 }
+
+footer {
+  height: 400px;
+  background-color: hsl(192, 100%, 9%);
+}
