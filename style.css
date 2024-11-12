@@ -128,14 +128,19 @@
 .page-main-overlap {
   background-color: white;
   padding: 50px 100px;
-  width: 60%;
+  width: 67%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   margin-top: 70px;
+}
+
+.overlap-heading {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .get-started-button-big {
@@ -145,8 +150,69 @@
 }
 
 footer {
-  height: 400px;
+  height: 800px;
   background-color: hsl(192, 100%, 9%);
   margin-top: -75px;
+  color: white;
+  font-size: 16px;
+}
+
+.footer-area {
+  background-color: green;
+  padding: 0 75px;
+}
+
+.bottom-logo {
+  margin-top: 150px;
+}
+
+.bottom-div {
+  display: flex;
+  background-color: red;
+}
+
+.bottom-a {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-b, .bottom-c {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-d {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-a div, .bottom-b div, .bottom-c div {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-icons {
+  background-color: purple;
+}
+
+#location-icon {
+  height: 18px;
+  width: 13px;
+}
+
+#phone-icon {
+  height: 18px;
+  width: 18px;
+}
+
+#email-icon {
+  height: 16px;
+  width: 20px;
+}
+
+.bottom-text {
+  background-color: grey;
 }
 
